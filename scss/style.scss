@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(223, 223, 223);
+}
+.articulo{
+    margin-top: 5rem;
+}
+.articulo__titulo{
+    color: black;
+}
+.articulo__texto {
+    
+    p{
+        display: flex;
+        padding-top: 1rem;
+        padding-left: 1rem;
+        justify-content: flex-start;
+        font-family: 'Poppins', sans-serif;
+        color: black;
+}}
+
+.main__titulo{
+    margin: 3rem 0 ;
+    color: black;
+    
+}
+.main__iframe-video{
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+.articulo__certificados{
+    h2{
+        color: black;
+        font-size: bold;
+        
+    }
+}
+/* mixin */
+@mixin sizes($width,$heigh){
+    height:$heigh;
+    width: $width;
+}
+.articulo__certificados-img{
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    img{
+        @include sizes(350px,350px )
+    }
+}
+

@@ -1,0 +1,37 @@
+body {
+  background-color: #dfdfdf; }
+
+.articulo {
+  margin-top: 5rem; }
+
+.articulo__titulo {
+  color: black; }
+
+.articulo__texto p {
+  display: flex;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  justify-content: flex-start;
+  font-family: 'Poppins', sans-serif;
+  color: black; }
+
+.main__titulo {
+  margin: 3rem 0;
+  color: black; }
+
+.main__iframe-video {
+  text-align: center;
+  margin-bottom: 2.5rem; }
+
+.articulo__certificados h2 {
+  color: black;
+  font-size: bold; }
+
+/* mixin */
+.articulo__certificados-img {
+  display: flex;
+  align-content: center;
+  justify-content: space-around; }
+  .articulo__certificados-img img {
+    height: 350px;
+    width: 350px; }
