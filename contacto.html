@@ -43,40 +43,40 @@
     </header>
 
     <main>
-
-        <form class="formulario" action=""> <!-- Formulario de contacto -->
+      <body class="contacto__body">
+        
+      
+        <form class="container__form" action=""> <!-- Formulario de contacto -->
             <fieldset> 
-                <label class="formulario__label-nombre" for="nombre">Nombre: </label>
-                <input type="text" name="nombre"> <br>
-                <label class="formulario__label-apellido" for="apellido">Apellido: </label>
-                <input type="text" name="apellido"> <br>
-                <label class="formulario__label-mail" for="email">E-mail: </label>
-                <input type="email" name="email" placeholder="juan@gmail.com"> <br> 
-                <div><p class="formulario__p">Sexo:</p></div>
-                <div><p class="formulario__p">Hombre</p></div>
-                <input type="radio" name="sexo" id="hombre">
-                <div><p class="formulario__p">Mujer</p></div>
-                <input type="radio" name="sexo" id="mujer"> <br>
-                <select name="asunto" id="">
-                    <option value="visita">Visita domiciliaria</option>
-                    <option value="presupuesto">Presupuesto</option>
-                    <option value="consulta">Consulta</option>
-                </select><br>
+                <h2 class="form-titulo">Solicitud de Contacto</h2>
+                <p class="form-parrafo">Por favor complete los siguientes campos:</p>
+                <div class="form__formulario">
+                  <label   for="nombre">Nombre: </label>
+                  <input class="formulario-nombre" type="text" name="nombre" required> <br>
+                  <label   for="apellido">Apellido: </label>
+                  <input class="formulario-apellido"type="text" name="apellido" required> <br>
+                  <label  for="email">E-mail: </label>
+                  <input class="formulario-email"type="email" name="email" placeholder="juan@gmail.com" multiple required> <br>
+                  <select name="asunto" id="" required>
+                      <option value="visita">Visita domiciliaria</option>
+                      <option value="presupuesto">Presupuesto</option>
+                      <option value="consulta">Consulta</option>
+                  </select><br>
 
-                <div><p class="formulario__p">Ingrese su mensaje!</p></div>
-                <textarea name="" id="" cols="30" rows="10">       </textarea><br>
-                <div><p class="formulario__p">¿Acepta terminos y condiciones?</p></div>
-                <input type="checkbox" name="acepta" id="acepta">
-                <div><p class="formulario__p">¿Desea recibir nuestro Newsletter semanal?</p></div>
-                <input type="checkbox" name="newsletter" id="newsletter"><br>
+                  <div><p class="formulario__p">Ingrese su mensaje:</p></div>
+                  <textarea name="" id="" cols="30" rows="10">       </textarea><br>
+                  <div><p class="formulario__p">¿Acepta terminos y condiciones?</p></div>
+                  <input type="checkbox" name="acepta" id="acepta" required>
+                  <div><p class="formulario__p">¿Desea recibir nuestro Newsletter semanal?</p></div>
+                  <input type="checkbox" name="newsletter" id="newsletter"><br>
 
-                <input class="formulario__button-primario" type="submit" value="Enviar"> <br>
-                <input class="formulario__button-secundario" type="reset" value="Resetear Formulario""> <br>
-
+                  <input class="formulario__button-primario" type="submit" value="Enviar"> <br>
+                  <input class="formulario__button-secundario" type="reset" value="Resetear Formulario""> <br>
+                </div>
             </fieldset>
         </form>
 
-
+      </body>
 
 
     </main>
