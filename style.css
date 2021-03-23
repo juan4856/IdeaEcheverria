@@ -93,143 +93,6 @@ address{
     margin: auto;
 }
 
-/* Bloques */
-/* 
-body header h1{
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-
-
-.menuPrincipal{
-    
-    position: relative;  
-    text-align:end;
-    
-}
-.menuPrincipal ul{
-    margin-top:0px ;
-}
-ul li{
-    display: inline-block;
-    padding: 10px 20px;
-   
-}
-ul li:hover{
-    background-color: red;
-    
-}
-.subMenu{
-    display: none;
-    background-color: rgb(3, 3, 136);
-    text-align: left;
-}
-
-ul li:hover > .subMenu{
-    display: block;
-    position: absolute;
-    top: 60px;
-    right: 15rem;
-    left: 60rem;
-}
-
-
-
-.tablaServicios{
-    display: inline-block;
-    border: 3px solid black;
-    margin: 1.8rem;
-    margin-left: 20rem;
-    padding: 0rem;
-}
-.imagenTexto {
-
-    display: inline-block;
-    margin-bottom: 10px;
-}
-body footer{
-    display: block;
-    padding: 0.5rem 0rem ;
-
-    margin-bottom: 0px;
-}
-body footer address{
-    text-align:center;
-} */
-
-/* Flexbox */
-/* 
-h1{
-    display: flex;
-    justify-content: center;
-    margin: 0;
-}
-.menuPrincipal ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    padding: 1rem 1rem;
-    margin-top: 0;
-    border-top: 0;
-}
-.menuPrincipal ul li a {
-    padding: 0 1rem;
-    
-}
-ul li:hover{
-    background-color: red;
-}
-ul li a:hover{
-    color: black;
-}
-
-.subMenu{
-    display: none;
-}
-.imagenTexto{
-    display: flex;
-    margin: 1.3rem;
-}
-.textoPrincipal{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
-}
-footer{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 2.5rem ;
-}
-footer address{
-
-}
-
-.tablaServicios{
-    display: flex;
-    justify-content: center;
-    padding: 0.8rem;
-}
-.tablaServicios td{
-    padding: 0.5rem 1.8rem;
-}
-/* Servicios */
-
-
-/* .serviciosOfrecidos {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    
-}
-
-.imagenesLuz img{
-    width: 600px;
-} */
- 
-
 /* Grid */
 .textoPrincipal{
     display: grid ;
@@ -243,9 +106,6 @@ footer address{
 .textoPrincipal p{
     padding-left: 2rem;
 }
-
-
-
 
 
 h1{
@@ -283,7 +143,7 @@ h1{
 
 .section__container{
     display: grid;
-    border-top: 2px solid black;
+   
     justify-items: center;
 }
 .section__containers tr{
@@ -474,3 +334,7 @@ ul li:hover{
     color: red;
     background: black
 }
+
+.mapa {
+   text-align: center;}
+   
