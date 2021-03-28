@@ -64,9 +64,12 @@ p{
     width: 100vw;
 }
 
-.iconos{
+.iconos a{
     font-size: 40px;
     color: white;
+}
+.iconos .fab:hover{
+    transform: scale(1.3);
 }
 .iconos i{
     padding-left: 2rem;
@@ -351,6 +354,11 @@ h1{
   font-size:30px;
 	box-shadow: 2px 2px 3px #999;
   z-index:100;
+}
+
+.float-wpp:hover{
+    color: white;
+    transform: scale(1.3);
 }
 
 .my-float-wpp{
