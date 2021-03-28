@@ -356,3 +356,95 @@ h1{
 .my-float-wpp{
 	margin-top:16px;
 }
+
+/* Carrousel */
+
+@media (min-width: 1360px){
+    .carousel-item{
+        height: 100vh;}
+
+}
+
+.carousel-item{
+    
+    background: no-repeat scroll center scroll;
+}
+
+.carousel-item::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: black;
+    opacity: 0.3;
+}
+
+.carousel-caption{
+    bottom: 130px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.carousel-caption h5{
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.slider-btn{
+    margin-top: 30px;
+}
+.slider-btn:hover{
+    transform: scale(1.1);
+}
+
+.slider-btn .btn:hover{
+    background-color: #0b5ed7;
+    border-color: #0b5ed7;
+}
+.slider-btn .btn {
+    background-color:#0d6efd ;
+    border-color: #0d6efd;
+    color: white;
+    border-radius: 1rem;
+    padding: 1rem 1.3rem ;
+    font-size: 1.2rem;
+    font-weight: 500;
+
+}
+
+/* cards */
+
+
+.card-header h4{
+    font-size: 3rem;
+}
+.card-title h5{
+    font-size: 2re;
+}
+.card-text{
+    font-size: 0.8rem;
+    color: black;
+    margin: 1rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+.fas, .far{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 5rem;
+}
+.card-text-white{
+    color: white;
+}
+.card-body{
+    padding-bottom: 3rem;
+}
+
+
+
+
+
+
