@@ -216,9 +216,8 @@ h1{
 
 /* Transformaciones */
 
-ul li:hover{
-    background-color: red;
-    border-radius: 1em;
+.navbar-ul li:hover{
+    font-size: 1.1rem;
 }
 
 .menuPrincipal ul li:hover{
