@@ -58,17 +58,21 @@
     width: 150px;
     height: 150px; }
 
-@media (min-width: 920px) {
-  .certificados-img > img {
-    width: 520px;
-    height: 520px; } }
+@media (min-width: 1020px) {
+  .articulo__certificados {
+    display: grid;
+    grid-template-rows: 1fr 2fr; }
+    .articulo__certificados .certificados-img img {
+      width: auto;
+      height: 200px; } }
 
 .section-empresas {
   padding: 0 2rem 3rem 2rem; }
   .section-empresas .empresas__titulo {
     border-top: 1.5px solid black;
     color: black;
-    font-size: 3rem; }
+    font-size: 3rem;
+    text-align: center; }
   .section-empresas .empresas__img-logo {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -86,5 +90,16 @@
     flex-direction: row-reverse;
     justify-content: space-around;
     padding-top: 1rem; } }
+
+.video {
+  display: block;
+  text-align: center;
+  padding: 0 2rem; }
+  .video .video-titulo {
+    border-top: 1.5px solid black;
+    font-size: 3rem;
+    margin-bottom: 1.5rem; }
+  .video .video-iframe {
+    margin-bottom: 1rem; }
 
 /* mixin */
