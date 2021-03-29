@@ -217,7 +217,7 @@ h1{
     font-weight: 700;
 }
 
-@media only screen and (min-width:760px){
+@media only screen and (min-width:850px){
     .section__blog{
         margin: 1.5rem 1rem; 
         display: grid;
@@ -247,15 +247,6 @@ h1{
     transform: scale(1.3,1.3);
 }
 
-.formulario{
-    margin-top: 5rem;
-    margin-bottom: 2rem;
-    font-family: 'Poppins', sans-serif;
-    
-}
-.formulario__p{
-    color: black;
-}
 
 
 
@@ -297,24 +288,27 @@ h1{
 /* Contacto */
 
 .contacto__body{
-    background-color: black;
-    color: white;
+    background-color: white; 
     font-family: 'Poppins', sans-serif;
 }
 
 .container__form{
     margin-top: 5rem;
     padding: 2rem;
-    color: white;
+    margin-bottom: 3rem;
 }
 
 .container__form h2,
 .container__form p{
-    color: white;
+    color: black;
+    font-family: 'Poppins', sans-serif;
 }
 
 
 .form__formulario{
+    border-radius: 1rem;
+    background-color: black;
+    color: white;
     max-width: 1160px;
     padding: 1rem;
     box-shadow: 0 0 20px 0 rgba(255,255,255, .3);
@@ -333,29 +327,62 @@ h1{
 .formulario-apellido,
 .formulario-email{
     background: none;
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid #0d6efd;
     color: white;
+    margin-bottom: 1rem;
 }
-.formulario__button-primario,
-.formulario__button-secundario{
+.boton{
     margin: .7rem;
     padding: .5rem;
-    background:rgb(161, 1, 1);
-    border:none;
-    font-weight: bold;
-    width: 100%;
-    border-radius: .3rem;
+    width: 200px;
+    font-weight: 550;
+    border-radius: .5rem;
+    
+}
 
+.boton:hover{
+    transform: scale(1.1);
 }
-.formulario__button-primario:hover,
-.formulario__button-secundario:hover{
-    color: red;
-    background: black
+.formulario{
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    font-family: 'Poppins', sans-serif;
+    
 }
+
 
 .mapa {
-   text-align: center;}
-   
+    background-image: url(img/gpsmap.jpg);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+   text-align: center;
+   margin-bottom: 1rem;
+}
+.mapa-titulo{
+    margin-bottom: 1rem;
+    text-transform: capitalize ;
+}
+
+.formulario-select select{
+    font-weight: 300;
+    margin: 1rem 0 3rem 2.5rem;
+    width: 300px;
+    height: 40px;
+    background-color: #0d6efd;
+    color: white;
+    border-color: #0d6efd ;
+    border-radius: 0.4rem;
+}
+.formulario-select select option{
+    font-weight: 300;
+    text-align: center;
+}
+@media only screen and (min-width:1024px){
+    .container__form{
+        margin-left:10rem;
+
+    }
+}
 /* Boton wpp */
 .float-wpp{
 	position:fixed;
